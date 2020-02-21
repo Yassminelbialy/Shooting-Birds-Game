@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!----------------------- pop up js lib by Aya ----------------------->
+
+</head>
+
+<body>
+    <!-- -----------------------Yassmin , sounds by Ahmed Said ------------------------ -->
+    <div id="container">
+      
+        <video controls hidden class="dieDuck" src="../audio/dieDuck.mp4"></video>
+        <audio class="bombDown" src="../audio/bombDown.mp3"></audio>
+        <audio class="bomb" src="../audio/bomb.mp3"></audio>
+        <audio class="shotGun" src="../audio/shootguns.mp3"></audio>
+        <h1 id="scoreLable">Score : <span id="sc">0</span> </h1>
+        <h1 id="levelLable">Level 1</h1>
+        <div id="timerLable" class="container_progress">
+            <div class="move_progress"></div>
+        </div>
+        <img class="trees" src="../images/tree.png" id="tree">
+        <img class="trees" src="../images/tree.png" id="tree2">
+        <h1 id="LivesLable">Lives = 30</h1>
+    </div>
+    <audio class="bgSound" type="audio/mpeg" src="../audio/bg_sound.mp3"  loop>Browser doesn't support this audio file</audio>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<link rel="stylesheet" href="../sweetalert2-master/src/sweetalert2.css">
+<link rel="stylesheet" href="../style/gameCSS.css" />
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../sweetalert2-master/src/SweetAlert.js"></script>
+<script src="../js/game.js"></script>
+
+
+</html>
