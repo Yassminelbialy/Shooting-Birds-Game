@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    cursor: url(../images/scope.cur),auto
+}
+
+body {
+    background-image: url(../images/gamebackGround.jpg);
+    /* background-repeat: no-repeat; */
+    height: 100%;
+  
+    position: fixed;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#container {
+    display: -webkit-box;
+}
+
+#scoreLable {
+    width: 180px;
+    color: darkred;
+    font-style: oblique;
+    text-align: center;
+    margin: 10px;
+    background-color: #DDF3F7;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px;
+    /* background-color: chartreuse; */
+}
+
+#levelLable {
+    margin-left: 380px;
+    font-style: oblique;
+    width: 180px;
+    color: darkred;
+    font-style: oblique;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: #DDF3F7;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px;
+}
+
+
+
+#div_contain_score_timer_level {
+    background-color: #DDF3F7;
+    height: 520px;
+}
+
+.flipBird {
+    transform: rotateY(180deg)
+}
+
+
+
+.allBirds {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 900;
+}
+
+.goldBirds {
+    border: 0;
+}
+
+.blackBirds {
+    border: 0;
+}
+
+.normalBirds {
+    border: 0;
+}
+/* style the progress bar */
+
+#timerLable {
+    color: darkred;
+    font-style: oblique;
+    margin-left: 380px;
+    width: 180px;
+    font-style: oblique;
+    text-align: center;
+    background-color: #DDF3F7;
+    box-shadow: darkgrey 10px 10px 10px, darkgrey -10px -10px 10px;
+}
+.container_progress {
+    width: 25%;
+    height: 40px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container_progress .move_progress {
+    position: absolute;
+    top: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 20px;
+   
+    padding-top: 10px;
+}
+
+/* style trees */
+#tree {
+    position: absolute;
+    /* margin-top: 150px;
+    margin-left: 180px; */
+    height: 400px;
+    bottom: 83px;
+    left: 750px;
+}
+
+#tree2 {
+    position: absolute;
+
+    /* margin-top: 140px;
+    margin-left: 500px; */
+    height: 420px;
+    width: 300px;
+    bottom: 84px;
+    left:20px;
+
+}
+#LivesLable{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-style: oblique;
+    width: 180px;
+    color: darkred;
+    font-style: oblique;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: #DDF3F7;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px;
+}
+.area {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 600px;
+    height: 100vh;
+    z-index: 99;
+
+}
+
+.area img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 50%;
+
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+    
+    <div class="container_home body_animate">
+        <audio  src="audio/1.mp3"></audio>    
+        <audio  src="audio/2.mp3"></audio>  
+        <img class="background" src="images/duck.jpg">
+        <img class="soundon" src="images/soundon.png">
+        <img class="soundoff" src="images/soundoff.png">
+        <button class="btnPlay">play</button>
+        <div class="blur"></div>
+    </div>
+
+    <div class="popUp">
+        <div class="content">
+            <span class="close">x</span> 
+             <p> login </p>
+            <form   method="GET" action="gameHTML/gamePage.html" >
+                <input required type="text" name="" id="" placeholder="Enter Your Name Here">
+                <p>choose your level</p>
+                <label>Easy</label> <input required value="Easy"  type="radio" name="level" >
+                <label>Hard</label> <input required  value="Hard" type="radio" name="level" >
+                <input type="submit"   value="Play">
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/home.js"></script>
+    
+</body>
+</html>
