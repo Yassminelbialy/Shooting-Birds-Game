@@ -1,7 +1,5 @@
 # Shooting-Birds-Game
-<h3>Description </h3>
-
-
+<pre>
 <h3>Technology used </h3>
 <h4> HTML, CSS3,JS and jQuery </h4>
 
